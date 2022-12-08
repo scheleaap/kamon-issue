@@ -11,7 +11,7 @@ lazy val root = project
     run / fork := true,
     javaAgents += "io.kamon" % "kanela-agent" % "1.0.16",
     libraryDependencies ++= Seq(
-      "io.kamon" %% "kamon-bundle" % "2.5.10", // Change this to "2.5.9" and logging the MDC tag will work again
+      "io.kamon" %% "kamon-bundle" % "2.5.12",
 
       "ch.qos.logback" % "logback-classic" % "1.2.11",
       "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
