@@ -1,15 +1,15 @@
-# Example for kamon-io/Kamon#1225
+# Example for kamon-io/Kamon#1234
 
-See the kamon-io/Kamon#1225 for details.
+See kamon-io/Kamon#1234 for details.
 
 Run with `sbt run`.
 
 If you change the line
 ```
-      "io.kamon" %% "kamon-bundle" % "2.5.10",
+      "ch.qos.logback" % "logback-classic" % "1.4.5",
 ```
 to
 ```
-      "io.kamon" %% "kamon-bundle" % "2.5.9",
+      "ch.qos.logback" % "logback-classic" % "1.2.11",
 ```
 in `build.sbt`, you will see the tag reappears.

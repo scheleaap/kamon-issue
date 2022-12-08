@@ -13,7 +13,7 @@ lazy val root = project
     libraryDependencies ++= Seq(
       "io.kamon" %% "kamon-bundle" % "2.5.12",
 
-      "ch.qos.logback" % "logback-classic" % "1.2.11",
+      "ch.qos.logback" % "logback-classic" % "1.4.5", // Change this to "1.2.11" and logging the MDC tag will work again
       "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
       "net.logstash.logback" % "logstash-logback-encoder" % "7.2"
     )
