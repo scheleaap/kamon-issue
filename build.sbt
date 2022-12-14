@@ -10,6 +10,8 @@ lazy val root = project
   .settings(
     run / fork := true,
     javaAgents += "io.kamon" % "kanela-agent" % "1.0.16",
+    javaOptions ++= Seq("-Dkanela.debug-mode=YES","-Dkanela.log-level=DEBUG"),
+
     libraryDependencies ++= Seq(
       "io.kamon" %% "kamon-bundle" % "2.5.12",
 
